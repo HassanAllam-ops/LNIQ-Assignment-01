@@ -1,4 +1,5 @@
 ﻿using LNIQ_Assignment_01;
+using LNIQ_Assignment_01.Data;
 using static LNIQ_Assignment_01.ListGenerator;
 
 namespace LINQ_Assignment_01
@@ -82,6 +83,21 @@ namespace LINQ_Assignment_01
             //foreach (var item in Result)
             //{
             //    Console.WriteLine($"Customer ID: {item.CustomerID}, Order Count: {item.OrderCount}");
+            //}
+            #endregion
+
+            #region 3. Return a list of categories and how many products each has
+            //var Result = ProductList
+            //.GroupBy(p => p.Category)
+            //.Select(g => new
+            //{
+            //    Category = g.Key,
+            //    ProductCount = g.Count()
+            //});
+            //
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine($"Category: {item.Category}, Products: {item.ProductCount}");
             //}
             #endregion
             #endregion
