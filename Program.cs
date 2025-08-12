@@ -145,6 +145,21 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine($"Category: {item.Category}, Total Units in Stock: {item.TotalUnitsInStock}");
             //}
             #endregion
+
+            #region 10. Get the cheapest price among each category's products
+            //var Result = ProductList
+            //    .GroupBy(p => p.Category)
+            //    .Select(g => new
+            //    {
+            //        Category = g.Key,
+            //        CheapestPrice = g.Min(p => p.UnitPrice)
+            //    });
+            //
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine($"Category: {item.Category}, Cheapest Price: {item.CheapestPrice:c}");
+            //}
+            #endregion
             #endregion
 
 
