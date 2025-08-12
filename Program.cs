@@ -160,9 +160,24 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine($"Category: {item.Category}, Cheapest Price: {item.CheapestPrice:c}");
             //}
             #endregion
+
+
+            #region 11. Get the products with the cheapest price in each category (Use Let)
+           //var Result =
+           //from p in ProductList
+           //group p by p.Category into g
+           //let minPrice = g.Min(x => x.UnitPrice)
+           //from h in g
+           //where h.UnitPrice == minPrice
+           //select h;
+           //
+           //foreach( var item in Result )
+           //{
+           //    Console.WriteLine($"Category: {item.Category}, Cheapest Price: {item.UnitPrice:c}");
+           //}
             #endregion
 
-
+            #endregion
         }
     }
 }
