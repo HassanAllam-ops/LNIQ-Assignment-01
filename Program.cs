@@ -130,6 +130,21 @@ namespace LINQ_Assignment_01
             //var Result = words.Average(word => word.Length);
             //Console.WriteLine($"Average Word Length : {Result}");
             #endregion
+
+            #region 9. Get the total units in stock for each product category.
+            //var Result = ProductList
+            //    .GroupBy(p => p.Category)
+            //    .Select(g => new
+            //    {
+            //        Category = g.Key,
+            //        TotalUnitsInStock = g.Sum(p => p.UnitsInStock)
+            //    });
+            //
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine($"Category: {item.Category}, Total Units in Stock: {item.TotalUnitsInStock}");
+            //}
+            #endregion
             #endregion
 
 
