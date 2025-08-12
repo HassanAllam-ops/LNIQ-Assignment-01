@@ -26,6 +26,18 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine(product);
             //}
             #endregion
+
+            #region 3. Returns digits whose name is shorter than their value.
+            //String[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            //
+            //var Result = Arr
+            //    .Where((s, i) => s.Length < i); 
+            //
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
             #endregion
         }
     }
