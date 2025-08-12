@@ -70,7 +70,23 @@ namespace LINQ_Assignment_01
             //.Where(n => n % 2 == 1).Count();
             //Console.WriteLine(Result);
             #endregion
+
+            #region 2. Return a list of customers and how many orders each has.
+            //var Result = CustomerList
+            //    .Select(c => new
+            //    {
+            //        c.CustomerID,
+            //        OrderCount = c.Orders.Count()
+            //    });
+            //
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine($"Customer ID: {item.CustomerID}, Order Count: {item.OrderCount}");
+            //}
             #endregion
+            #endregion
+
+
         }
     }
 }
