@@ -39,6 +39,14 @@ namespace LINQ_Assignment_01
             //}
             #endregion
             #endregion
+
+            #region LINQ - Element Operators
+            #region 1. Get first Product out of Stock 
+            //var Result = ProductList.FirstOrDefault
+            //    (ProductList => ProductList.UnitsInStock == 0);
+            //Console.WriteLine(Result);
+            #endregion
+            #endregion
         }
     }
 }
