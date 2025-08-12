@@ -62,6 +62,15 @@ namespace LINQ_Assignment_01
             //Console.WriteLine(Result);
             #endregion
             #endregion
+
+            #region LINQ - Aggregate Operators
+            #region 1. Uses Count to get the number of odd numbers in the array
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            //var Result = Arr
+            //.Where(n => n % 2 == 1).Count();
+            //Console.WriteLine(Result);
+            #endregion
+            #endregion
         }
     }
 }
