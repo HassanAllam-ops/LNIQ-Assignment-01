@@ -112,6 +112,12 @@ namespace LINQ_Assignment_01
             //var Result = words.Sum(word => word.Length);
             //Console.WriteLine($"Total Caracters : {Result}");
             #endregion
+
+            #region Get the length of the shortest word in dictionary_english.txt
+            //string[] words = File.ReadAllLines("dictionary_english.txt");
+            //var Result = words.Min(word => word.Length);
+            //Console.WriteLine($"Shortest Word Length : {Result}");
+            #endregion
             #endregion
 
 
