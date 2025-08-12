@@ -106,6 +106,12 @@ namespace LINQ_Assignment_01
             //var Result = Arr.Sum();
             //Console.WriteLine(Result);
             #endregion
+
+            #region 5. Get the total number of characters of all words in dictionary_english.txt
+            //string[] words = File.ReadAllLines("dictionary_english.txt");
+            //var Result = words.Sum(word => word.Length);
+            //Console.WriteLine($"Total Caracters : {Result}");
+            #endregion
             #endregion
 
 
