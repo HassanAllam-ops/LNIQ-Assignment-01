@@ -119,10 +119,16 @@ namespace LINQ_Assignment_01
             //Console.WriteLine($"Shortest Word Length : {Result}");
             #endregion
 
-            #region Get the length of the longest word in dictionary_english.txt
+            #region 7. Get the length of the longest word in dictionary_english.txt
             //string[] words = File.ReadAllLines("dictionary_english.txt");
             //var Result = words.Max(word => word.Length);
             //Console.WriteLine($"Longest Word Length : {Result}");
+            #endregion
+
+            #region 8. Get the average length of the words in dictionary_english.txt
+            //string[] words = File.ReadAllLines("dictionary_english.txt");
+            //var Result = words.Average(word => word.Length);
+            //Console.WriteLine($"Average Word Length : {Result}");
             #endregion
             #endregion
 
