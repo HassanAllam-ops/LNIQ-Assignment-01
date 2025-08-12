@@ -113,10 +113,16 @@ namespace LINQ_Assignment_01
             //Console.WriteLine($"Total Caracters : {Result}");
             #endregion
 
-            #region Get the length of the shortest word in dictionary_english.txt
+            #region 6. Get the length of the shortest word in dictionary_english.txt
             //string[] words = File.ReadAllLines("dictionary_english.txt");
             //var Result = words.Min(word => word.Length);
             //Console.WriteLine($"Shortest Word Length : {Result}");
+            #endregion
+
+            #region Get the length of the longest word in dictionary_english.txt
+            //string[] words = File.ReadAllLines("dictionary_english.txt");
+            //var Result = words.Max(word => word.Length);
+            //Console.WriteLine($"Longest Word Length : {Result}");
             #endregion
             #endregion
 
