@@ -100,6 +100,12 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine($"Category: {item.Category}, Products: {item.ProductCount}");
             //}
             #endregion
+
+            #region 4. Get the total of the numbers in an array.
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            //var Result = Arr.Sum();
+            //Console.WriteLine(Result);
+            #endregion
             #endregion
 
 
