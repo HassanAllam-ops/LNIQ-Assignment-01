@@ -413,7 +413,7 @@ namespace LINQ_Assignment_01
             //}
             #endregion
 
-            #region 1. Uses group by to partition a list of words by their first letter. Use dictionary_english.txt for Input
+            #region 2. Uses group by to partition a list of words by their first letter. Use dictionary_english.txt for Input
             //string[] words = File.ReadAllLines("dictionary_english.txt");
             //var Result = words
             //    .GroupBy(word => word[0])
@@ -426,6 +426,26 @@ namespace LINQ_Assignment_01
             //foreach (var group in Result)
             //{
             //    Console.WriteLine($"Words starting with '{group.FirstLetter}':");
+            //    foreach (var word in group.Words)
+            //    {
+            //        Console.WriteLine(word);
+            //    }
+            //}
+            #endregion
+
+            #region Use Group By with a custom comparer that matches words that are consists of the same Characters Together
+            //String[] Arr = { "from", "salt", "earn", " last", "near", "form" };
+            //var Result = Arr
+            //    .GroupBy(word => new string(word.OrderBy(c => c).ToArray()))
+            //    .Select(g => new
+            //    {
+            //        SortedWord = g.Key,
+            //        Words = g.ToList()
+            //    });
+            //
+            //foreach (var group in Result)
+            //{
+            //    Console.WriteLine($"Words with the same characters: {group.SortedWord}");
             //    foreach (var word in group.Words)
             //    {
             //        Console.WriteLine(word);
