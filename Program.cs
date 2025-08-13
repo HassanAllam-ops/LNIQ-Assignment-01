@@ -235,6 +235,18 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine(category);
             //}
             #endregion
+
+            #region 2. Produce a Sequence containing the unique first letter from both product and customer names.
+            //var Result = ProductList
+            //   .Select(p => p.ProductName[0])
+            //   .Union(CustomerList.Select(c => c.CustomerName[0]))
+            //   .Distinct();
+            //
+            //foreach (var letter in Result)
+            //{
+            //    Console.WriteLine(letter);
+            //}
+            #endregion
             #endregion
         }
     }
