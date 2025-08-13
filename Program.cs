@@ -453,6 +453,18 @@ namespace LINQ_Assignment_01
             //}
             #endregion
             #endregion
+
+            #region LINQ – Transformation Operators
+            #region 1. Return a sequence of just the names of a list of products.
+            //var Result = ProductList
+            //    .Select(p => p.ProductName);
+            //
+            //foreach (var name in Result)
+            //{
+            //    Console.WriteLine(name);
+            //} 
+            #endregion
+            #endregion
         }
     }
 }
