@@ -223,6 +223,19 @@ namespace LINQ_Assignment_01
             #endregion
 
             #endregion
+
+            #region LINQ - Set Operators
+            #region 1. Find the unique Category names from Product List
+            //var Result = ProductList
+            //    .Select(p => p.Category)
+            //    .Distinct();
+            //
+            //foreach (var category in Result)
+            //{
+            //    Console.WriteLine(category);
+            //}
+            #endregion
+            #endregion
         }
     }
 }
