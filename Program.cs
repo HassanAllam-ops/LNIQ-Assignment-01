@@ -479,6 +479,20 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine($"Uppercase: {item.UpperCase}, Lowercase: {item.LowerCase}");
             //}
             #endregion
+
+            #region 3. Produce a sequence containing some properties of Products, including UnitPrice which is renamed to Price in the resulting type.
+            //var Result = ProductList
+            //    .Select(p => new
+            //    {
+            //        p.ProductName,
+            //        p.Category,
+            //        Price = p.UnitPrice,
+            //    });
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine($"Product Name : {item.ProductName} , Category : {item.Category} , Price : {item.Price}");
+            //}
+            #endregion
             #endregion
         }
     }
