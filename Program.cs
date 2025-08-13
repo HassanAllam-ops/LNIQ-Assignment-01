@@ -269,6 +269,17 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine(letter);
             //}
             #endregion
+
+            #region 5. Create one sequence that contains the last Three Characters in each name of all customers and products, including any duplicates
+            //var Result = ProductList
+            //    .Select(p => p.ProductName.Substring(p.ProductName.Length - 3))
+            //    .Concat(CustomerList.Select(c => c.CustomerName.Substring(c.CustomerName.Length - 3)));
+            //
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
             #endregion
         }
     }
