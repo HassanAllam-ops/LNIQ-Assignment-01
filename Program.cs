@@ -493,6 +493,18 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine($"Product Name : {item.ProductName} , Category : {item.Category} , Price : {item.Price}");
             //}
             #endregion
+
+            #region 4. Determine if the value of int in an array match their position in the array.
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            //var Result = Arr
+            //.Select((value, index) => new { Value = value, Index = index })
+            //.Where(x => x.Value == x.Index);
+            //
+            //foreach (var match in Result)
+            //{
+            //    Console.WriteLine($"Value {match.Value} matches its index {match.Index}");
+            //}
+            #endregion
             #endregion
         }
     }
