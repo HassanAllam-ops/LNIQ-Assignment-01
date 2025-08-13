@@ -294,6 +294,18 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine(order);
             //}
             #endregion
+
+            #region 2. Get all but the first 2 orders from customers in Washington.
+            //var Result = CustomerList
+            //    .Where(c => c.Region == "WA")
+            //    .SelectMany(c => c.Orders)
+            //    .Skip(2);
+            //
+            //foreach (var order in Result)
+            //{
+            //    Console.WriteLine(order);
+            //}
+            #endregion
             #endregion
         }
     }
