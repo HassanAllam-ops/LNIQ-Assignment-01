@@ -367,6 +367,26 @@ namespace LINQ_Assignment_01
             //    }
             //}
             #endregion
+
+            #region 3. Return a grouped a list of products only for categories that have all of their products in stock.
+            //var Result = ProductList
+            //    .GroupBy(p => p.Category)
+            //    .Where(g => g.All(p => p.UnitsInStock > 0))
+            //    .Select(g => new
+            //    {
+            //        Category = g.Key,
+            //        Products = g.ToList()
+            //    });
+            //
+            //foreach (var group in Result)
+            //{
+            //    Console.WriteLine($"Category: {group.Category}");
+            //    foreach (var product in group.Products)
+            //    {
+            //        Console.WriteLine($"  Product: {product.ProductName}, Units in Stock: {product.UnitsInStock}");
+            //    }
+            //} 
+            #endregion
             #endregion
         }
     }
