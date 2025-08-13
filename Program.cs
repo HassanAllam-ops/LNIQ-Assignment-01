@@ -1,4 +1,5 @@
-﻿using LNIQ_Assignment_01;
+﻿using System.Collections.Generic;
+using LNIQ_Assignment_01;
 using LNIQ_Assignment_01.Data;
 using static LNIQ_Assignment_01.ListGenerator;
 
@@ -386,6 +387,28 @@ namespace LINQ_Assignment_01
             //        Console.WriteLine($"  Product: {product.ProductName}, Units in Stock: {product.UnitsInStock}");
             //    }
             //} 
+            #endregion
+            #endregion
+
+            #region LINQ – Grouping Operators
+            #region 1. Use group by to partition a list of numbers by their remainder when divided by 5
+            //List<int> numbers = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+            //var Result = numbers
+            //    .GroupBy(n => n % 5)
+            //    .Select(g => new
+            //    {
+            //        Remainder = g.Key,
+            //        Numbers = g.ToList()
+            //    });       
+            //
+            //foreach (var group in Result)
+            //{
+            //    Console.WriteLine($"Numbers with a remainder of: {group.Remainder} when divided by 5 : ");
+            //    foreach (var number in group.Numbers)
+            //    {
+            //        Console.WriteLine(number);
+            //    }
+            //}
             #endregion
             #endregion
         }
