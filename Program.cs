@@ -247,6 +247,17 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine(letter);
             //}
             #endregion
+
+            #region . Create one sequence that contains the common first letter from both product and customer names.
+            //var Result = ProductList
+            //    .Select(p => p.ProductName[0])
+            //    .Intersect(CustomerList.Select(c => c.CustomerName[0]));
+            //
+            //foreach (var letter in Result)
+            //{
+            //    Console.WriteLine(letter);
+            //}
+            #endregion
             #endregion
         }
     }
