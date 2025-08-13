@@ -464,6 +464,21 @@ namespace LINQ_Assignment_01
             //    Console.WriteLine(name);
             //} 
             #endregion
+
+            #region 2. Produce a sequence of the uppercase and lowercase versions of each word in the original array (Anonymous Types).
+            //String[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
+            //var Result = words
+            //    .Select(word => new
+            //    {
+            //        UpperCase = word.ToUpper(),
+            //        LowerCase = word.ToLower()
+            //    });
+            //
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine($"Uppercase: {item.UpperCase}, Lowercase: {item.LowerCase}");
+            //}
+            #endregion
             #endregion
         }
     }
