@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.Intrinsics.X86;
 using LNIQ_Assignment_01;
 using LNIQ_Assignment_01.Data;
+using static System.Net.Mime.MediaTypeNames;
 using static LNIQ_Assignment_01.ListGenerator;
 
 namespace LINQ_Assignment_01
@@ -407,6 +409,26 @@ namespace LINQ_Assignment_01
             //    foreach (var number in group.Numbers)
             //    {
             //        Console.WriteLine(number);
+            //    }
+            //}
+            #endregion
+
+            #region 1. Uses group by to partition a list of words by their first letter. Use dictionary_english.txt for Input
+            //string[] words = File.ReadAllLines("dictionary_english.txt");
+            //var Result = words
+            //    .GroupBy(word => word[0])
+            //    .Select(g => new
+            //    {
+            //        FirstLetter = g.Key,
+            //        Words = g.ToList()
+            //    });
+            //
+            //foreach (var group in Result)
+            //{
+            //    Console.WriteLine($"Words starting with '{group.FirstLetter}':");
+            //    foreach (var word in group.Words)
+            //    {
+            //        Console.WriteLine(word);
             //    }
             //}
             #endregion
