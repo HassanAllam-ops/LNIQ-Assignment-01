@@ -339,6 +339,14 @@ namespace LINQ_Assignment_01
             //}
             #endregion
             #endregion
+
+            #region LINQ - Quantifiers
+            #region 1. Determine if any of the words in dictionary_english.txt (Read dictionary_english.txt into Array of String First) contain the substring 'ei'.
+            //string[] words = File.ReadAllLines("dictionary_english.txt");
+            //bool containsEi = words.Any(word => word.Contains("ei"));
+            //Console.WriteLine($"Any word contains 'ei': {containsEi}");
+            #endregion
+            #endregion
         }
     }
 }
