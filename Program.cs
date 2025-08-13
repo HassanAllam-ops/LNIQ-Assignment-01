@@ -281,6 +281,20 @@ namespace LINQ_Assignment_01
             //}
             #endregion
             #endregion
+
+            #region LINQ - Partitioning Operators
+            #region 1. Get the first 3 orders from customers in Washington
+            //var Result = CustomerList
+            //    .Where(c => c.Region == "WA")
+            //    .SelectMany(c => c.Orders)
+            //    .Take(3);
+            //
+            //foreach (var order in Result)
+            //{
+            //    Console.WriteLine(order);
+            //}
+            #endregion
+            #endregion
         }
     }
 }
