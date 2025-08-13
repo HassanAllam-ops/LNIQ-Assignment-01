@@ -346,6 +346,27 @@ namespace LINQ_Assignment_01
             //bool containsEi = words.Any(word => word.Contains("ei"));
             //Console.WriteLine($"Any word contains 'ei': {containsEi}");
             #endregion
+
+            #region 2. Return a grouped a list of products only for categories that have at least one product that is out of stock.
+            //var Result = ProductList
+            //    .Where(p => p.UnitsInStock == 0)
+            //    .GroupBy(p => p.Category)
+            //    .Where(g => g.Any())
+            //    .Select(g => new
+            //    {
+            //        Category = g.Key,
+            //        Products = g.ToList()
+            //    });
+            //
+            //foreach (var group in Result)
+            //{
+            //    Console.WriteLine($"Category: {group.Category}");
+            //    foreach (var product in group.Products)
+            //    {
+            //        Console.WriteLine($"  Product: {product.ProductName}, Units in Stock: {product.UnitsInStock}");
+            //    }
+            //}
+            #endregion
             #endregion
         }
     }
